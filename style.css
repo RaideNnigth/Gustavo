@@ -1,0 +1,25 @@
+body{
+    width: auto;
+    height: auto;
+}
+.header {
+    position:relative;
+    top: 0%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4c4c4c;
+    color: white;
+}
+footer div p{
+    color:white;
+    margin: 10px;
+}
+#footerText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -2,34 +2,21 @@
 <html lang = "pt-br">
     <head>
         <meta charset = "UTF-8">
-        <script rel = "scriptJs" src = "mainCode.js"></script>
-        <link rel="reset/css" href="reset.css">
-        <link rel="stylesheet" href="style.css" />
+        <script rel = "loadPage Header And Footer JsCode" src= "JsCodes/wLoadCode.js"></script>
+        <script rel = "scriptJs" src = "JsCodes/mainCode.js"></script>
+        <link rel="reset/css" href="CssFiles/reset.css">
+        <link rel="stylesheet" href="CssFiles/headerAndFooter.css" />
         <title>Gustavo Pereira</title>
     </head>
-    <body>
-        <header>
-           <nav>
-            <div id = "headerElements">
-                <p id = "headerText">Projeto Portifólio</p>
-                <div id = "divHeaderButtons">
-                    <button class= "headderButtons">Sobre Mim</button>
-                    <button class= "headderButtons">Projetos</button>
-                    <button class= "headderButtons">Contato</button>
-                </div>
-            </div>
-           </nav>
+    <body onload="loadHeaderAndFooter()">
+        <header id = "header">
         </header>
         <main>
             <section id = "firstSection">
                 
             </section>
         </main>
-        <footer>
-            <div id = "footerText">
-                <p>&copy Gustavo Pereira 2021</p>
-                <p>Gravataí, Rs-Brasil</p>
-            </div>
+        <footer id = "footer">
         </footer>
     </body>
 </html>

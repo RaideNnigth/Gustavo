@@ -1,9 +1,7 @@
 function loadHeaderAndFooter(){
     header();
     footer();
-
 }
-
 function header(){
     var header = document.getElementById("header");
     var nav = document.createElement("nav");
@@ -32,7 +30,6 @@ function header(){
     nav.appendChild(divHe);
     header.appendChild(nav);
 }
-
 function footer (){
     var footer = document.getElementById("footer");
     var div =  document.createElement("div");
@@ -44,5 +41,4 @@ function footer (){
     div.appendChild(p1);
     div.appendChild(p2);
     footer.appendChild(div);
-
 }

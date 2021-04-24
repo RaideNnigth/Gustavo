@@ -54,7 +54,7 @@ main{
 .divBackImg{
     width: 100%px;
     height: 515px;
-    background-image: url('/src/backgroundMainPage.jpg');
+    background-image: url('../src/backgroundMainPage.jpg');
 }
 .divBackImg div{
     display: flex;

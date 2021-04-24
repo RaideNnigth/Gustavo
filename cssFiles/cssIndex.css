@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: #c4c4c4;
+}
+#navImg{
+    height: 150px;
+    width: 150px;
+}
+#logo{
+    object-fit: contain;
+    width: 115%;
+    height: 115%;
+}
+.buttonNav{
+    height: auto;
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38.1px;
+    line-height: 49px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+.divBackImg{
+    width: 100%px;
+    height: 515px;
+    background-image: url(/src/backgroundMainPage.jpg);
+}
+.divBackImg div{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.h1Class{
+    width: fit-content;
+    font-family: Abel;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 58px;
+    line-height: 51px;
+    color: #FF2121;
+    border-bottom: 2px solid #FF0000;
+    stroke: #FF0000;
+    stroke-width: 10px;
+    margin: 0px ;
+}
+.pClass{
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+    max-width: 450px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+.buttonClass{
+    background: #FFFFFF;
+    border-radius: 36px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    border: 1px solid #000000;
+    width: fit-content;
+}
+#infoSection{
+    width: 100%;
+    height: 515px;
+}
+#divContentInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    position:absolute;
+    margin-top: 100px;
+    z-index: 999;
+}
+#textDivSection1{
+    margin-left: 75px;
+}
+#divContentInfo img{
+    margin-right: 75px;
+}
+.background{
+    width: 100%;
+    height: 515px;
+}
+.background img{
+    width: 100%;
+    height: 515px;
+}
+#projectSection{
+    width: 100%;
+    height: 400px;
+}
+#divContentProjetc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#divContentProjetcRight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+#divContentProjetcLeft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 75px;
+    padding-left: 20px;
+}
+#section2button{
+    margin-top: 30px;
+}
+#contactSection{
+    width: 100%;
+    height: 515px;
+}
+#divContentContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+#textDivSection3{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 75px;
+    z-index: 999;
+}
+#imgDivSection3{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 250px;
+    left: 60%;
+}
+#imgDivSection3 img{
+    padding-right: 10px;
+    width: 110px;
+    height: 110px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+#upperFooter{
+    height: 200px;
+    width: 100%;
+    background-color: #383737;
+}
+#upperFooter div{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 35%;
+}
+#upperFooter div p{
+    margin: 0px;
+    padding-top: 50px;
+    font-family: Abel;
+    font-size: 20px;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+#bottomFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c4c4c4;
+}
+#bottomFooter p{
+    font-family: Abel;
+    font-size: 15px;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
